@@ -1,0 +1,77 @@
+.promo {
+  background: url(../../img/heroes.png) center/cover no-repeat,
+    url("../../img/bg-element.png");
+
+  padding-top: 120px;
+
+  position: relative;
+  &__overlay {
+    backdrop-filter: blur(4.5px);
+    height: 800px;
+  }
+  &__title {
+    color: $white;
+    font-size: 128px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__subtitle {
+    color: $white;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-top: 6px;
+  }
+  &__desc {
+    color: $white;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+
+    width: 459.685px;
+  }
+  &__button {
+    color: $black;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 10px;
+    background: $orange;
+
+    width: 199.863px;
+    height: 60px;
+    flex-shrink: 0;
+    border: none;
+    cursor: pointer;
+    margin-top: 48px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    padding-bottom: 21px;
+    list-style: none;
+
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    right: 40%;
+  }
+  &__link {
+    color: $white;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: normal;
+    text-decoration: none;
+  }
+  &__svg {
+    width: 10px;
+    height: 4px;
+  }
+}
