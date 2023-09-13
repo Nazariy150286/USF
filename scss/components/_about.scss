@@ -1,0 +1,96 @@
+.about {
+  background-color: $black2;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 77px;
+  &__bg-item {
+    position: absolute;
+    left: 0;
+    top: 82px;
+  }
+  &__bg-item2 {
+    position: absolute;
+    left: 0;
+    top: 267px;
+  }
+
+  &__title {
+    color: $orange;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__description {
+    color: $white;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-top: 40px;
+    padding-left: 120px;
+  }
+
+  &__subtitle {
+    color: $orange;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+
+    position: absolute;
+    top: 616px;
+    right: 356px;
+  }
+  &__box-item-desc1 {
+    color: $white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+  }
+  &__box-item-desc2 {
+    color: $white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__box-item-desc3 {
+    color: $white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__box-item-desc4 {
+    color: $white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__bg-box {
+    width: 334px;
+    height: 493px;
+    border: 2px solid $orange;
+
+    position: absolute;
+    left: 372px;
+    top: 480px;
+    z-index: 3000;
+  }
+  &__bg-box2 {
+    width: 239px;
+    height: 460px;
+    transform: rotate(-90deg);
+    border: 2px solid $white;
+
+    position: absolute;
+    right: 440px;
+    bottom: 197px;
+  }
+  &__box-item1 {
+    position: absolute;
+    left: 556px;
+    top: 508px;
+    z-index: 4000;
+  }
+}
