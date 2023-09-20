@@ -3,6 +3,8 @@
   position: relative;
   padding-top: 40px;
   padding-bottom: 77px;
+
+  height: 1211.031px;
   &__bg-item {
     position: absolute;
     left: 0;
@@ -47,7 +49,6 @@
     font-size: 24px;
     font-weight: 400;
     line-height: normal;
-    position: absolute;
   }
   &__box-item-desc2 {
     color: $white;
@@ -91,6 +92,25 @@
     position: absolute;
     left: 556px;
     top: 508px;
+    z-index: 4000;
+  }
+  &__box-item2 {
+    position: absolute;
+    left: 318px;
+    bottom: 230px;
+    z-index: 4000;
+  }
+  &__box-item3 {
+    position: absolute;
+    left: 556px;
+    top: 508px;
+    z-index: 4000;
+  }
+  &__box-item4 {
+    position: absolute;
+    right: 264px;
+    bottom: 309px;
+
     z-index: 4000;
   }
 }
