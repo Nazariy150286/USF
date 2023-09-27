@@ -41,7 +41,7 @@
     line-height: normal;
 
     position: absolute;
-    top: 616px;
+    top: 45%;
     right: 356px;
   }
   &__box-item-desc1 {
@@ -88,29 +88,34 @@
     right: 440px;
     bottom: 197px;
   }
-  &__box-item1 {
+
+  &__list :nth-child(1) {
     position: absolute;
     left: 556px;
-    top: 508px;
+    top: 43%;
     z-index: 4000;
   }
-  &__box-item2 {
+  &__list :nth-child(2) {
     position: absolute;
     left: 318px;
     bottom: 230px;
     z-index: 4000;
   }
-  &__box-item3 {
+  &__list :nth-child(3) {
     position: absolute;
     left: 556px;
     top: 508px;
     z-index: 4000;
   }
-  &__box-item4 {
+  &__list :nth-child(4) {
     position: absolute;
     right: 264px;
-    bottom: 309px;
+    top: 50%;
 
     z-index: 4000;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
   }
 }
