@@ -1,0 +1,28 @@
+.city {
+  background: url(../../img/city-bg.png) center/ cover no-repeat;
+  height: 297px;
+  padding: 72px 0 79px;
+  position: relative;
+
+  &__title {
+    @include city-title($black, 24px, normal, center);
+  }
+  &__desc {
+    @include city-desc($black, 20px, normal, center);
+    width: 351px;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+  &__bg-element {
+    position: absolute;
+
+    right: 0;
+    bottom: 0;
+  }
+  &__bg-element-2 {
+    position: absolute;
+
+    right: 0;
+    bottom: 0;
+  }
+}

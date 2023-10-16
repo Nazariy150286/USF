@@ -1,0 +1,41 @@
+.support {
+  background: $black2;
+  padding: 40px 0 46px;
+  &__title {
+    @include title($orange, 48px);
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 40px;
+    position: relative;
+  }
+  &__text {
+    color: $black;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 80px 20px;
+  }
+  &__item-bg {
+    width: 395px;
+    height: 215px;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    left: 3.8%;
+    bottom: 1.1%;
+  }
+  &__item-bg2 {
+    width: 395px;
+    height: 215px;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    right: 0;
+    bottom: 1.1%;
+  }
+}

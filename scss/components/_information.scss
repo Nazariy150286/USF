@@ -1,0 +1,45 @@
+.information {
+  background: $black2;
+  padding: 36px 0 147px;
+  position: relative;
+  &__title {
+    @include title($orange, 48px);
+    text-align: right;
+  }
+  &__desc {
+    color: $white;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 559px;
+    padding-top: 46px;
+  }
+  &__btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background: $orange;
+
+    color: $black;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 12%;
+    bottom: 27%;
+  }
+  .container {
+    display: flex;
+    gap: 150px;
+  }
+  &__left-block {
+    padding-top: 55px;
+  }
+}

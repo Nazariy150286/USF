@@ -1,0 +1,29 @@
+@mixin city-title($black, $size, $line-height, $text-align) {
+  color: $black;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: $line-height;
+  text-align: $text-align;
+}
+@mixin city-desc($black, $desc-size, $line-height, $text-align) {
+  color: $black;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: $line-height;
+  text-align: $text-align;
+}
+
+@mixin title($orange, $title-size) {
+  color: #ffd76e;
+  text-align: center;
+  font-family: Inter;
+  font-size: $title-size;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
