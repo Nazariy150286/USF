@@ -1,0 +1,63 @@
+.offers {
+  background: url(../../img/offers-bg.png) center/cover no-repeat;
+  height: 1362px;
+  padding: 43px 180px;
+  &__title {
+    @include title($orange, 48px);
+  }
+  &__bottom-title {
+    @include title($orange, 48px);
+    padding: 291px 0 23px;
+  }
+
+  &__top-choice-block {
+    display: flex;
+    gap: 73px;
+    padding-top: 30px;
+    position: relative;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+  &__right-btn {
+    position: absolute;
+    right: -5%;
+    bottom: 50%;
+  }
+  &__left-btn {
+    position: absolute;
+    left: -5%;
+    bottom: 50%;
+  }
+  &__desc {
+    color: $white;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 22px;
+    text-align: center;
+  }
+  &__bottom-choice-block {
+    display: flex;
+    gap: 68px;
+    position: relative;
+  }
+  &__bottom-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__right-bottom-btn {
+    position: absolute;
+    right: -5%;
+    bottom: 50%;
+  }
+  &__left-bottom-btn {
+    position: absolute;
+    left: -5%;
+    bottom: 50%;
+  }
+}

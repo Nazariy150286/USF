@@ -3,12 +3,9 @@
     url("../../img/bg-element.png");
 
   padding-top: 120px;
-
+  height: 850px;
   position: relative;
-  &__overlay {
-    backdrop-filter: blur(4.5px);
-    height: 850px;
-  }
+
   &__title {
     color: $white;
     font-size: 128px;
@@ -49,14 +46,13 @@
     cursor: pointer;
     margin-top: 48px;
   }
-  &__list {
+  &__block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 13px;
     padding-bottom: 21px;
-    list-style: none;
 
     position: absolute;
     bottom: 0;
